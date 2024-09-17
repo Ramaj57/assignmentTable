@@ -1,0 +1,60 @@
+*{
+    color:black;
+    
+}
+body{
+    background-color: gray;
+}
+#container{
+   display: flex;
+   justify-content:space-around
+}
+table{
+    font-size: 2rem;    
+    border: 5px solid black;
+    margin-top:3%;
+    width:70%;
+    
+}
+table td, th{
+    border:1px solid black;
+}
+
+Form{
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid black;
+    padding:1rem;
+    max-height:450px;
+    text-align: center;
+}
+
+button{
+    font-size: 1.5rem;
+    margin: 5px;
+    background-color: hsl(0, 0%, 50%);
+    font-weight: bold;
+    
+}
+
+#addBtn{
+    margin:0 0px;
+}
+
+label{
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    font-weight: bold;
+}
+input {
+  float: left;
+  margin:10px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+}

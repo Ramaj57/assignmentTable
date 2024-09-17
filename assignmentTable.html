@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assignmentTable.css">
+</head>
+<body>
+    <div id="container">
+    <form>
+        <label for="fNameInput">First Name:</label>
+          <input type="text" id="fNameInput" required placeholder="What's your first name?"><br>
+        <label for="lNameInput">Last Name:</label>
+          <input type="text" id="lNameInput" required placeholder="What's your last name?"><br>
+        <label for="ageInput">Age:</label>
+          <input type="number" id="ageInput" pattern="[0-100]{1}" required placeholder="How old are you?...."><br>
+        <label for="numberInput">Phone Number:</label>
+          <input type="tel" id="numberInput" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="123-456-7890"><br>
+        <label for="jobInput">Occupation:</label>
+          <input type="text" id="jobInput" required placeholder="What do you do for a living?"><br>
+        <label for="foodInput">Fav Food:</label>
+          <input type="text" id="foodInput" required placeholder="What's your favorite food?"><br>
+        <button type="button" id="addBtn">Add</button>
+        <button type="reset">Reset</button>
+    </form>
+    <table>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Phone Number</th>
+          <th>Occupation</th>
+          <th>Fav Food</th>
+        </tr>          
+    </table>
+    </div>
+<script src="assignmentTable.js"></script>    
+</body>
+</html>
